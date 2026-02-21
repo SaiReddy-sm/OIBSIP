@@ -47,5 +47,9 @@ Example:
 https://yourusername.github.io/OIBSIP/SaiReddy-sm-landingpage/
 
 ---
+##Screenshot
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a1d66474-7137-4f88-9045-a151a580d697" />
 
+##Live link
+file:///C:/OIBSIP%20Internship/Landing%20Page/Index.html#
 ank you for reviewing this project.
