@@ -114,6 +114,36 @@ For enhanced functionality, Kelvin conversion can also be added.
 - JavaScript (DOM Manipulation & Validation)
 
 
+---
+
+# 📱 Responsive Design
+
+All projects are fully responsive and work across:
+- Mobile devices
+- Tablets
+- Desktop systems
+
+---
+
+# 💡 Skills Gained
+
+- Frontend Web Development
+- Responsive Web Design
+- CSS Flexbox & Layout Structuring
+- JavaScript DOM Manipulation
+- UI/UX Design Basics
+- Git & GitHub Version Control
+
+---
+
+# 📌 Conclusion
+
+This internship strengthened my practical knowledge of web development by building real-world projects from scratch. It improved my problem-solving skills and understanding of responsive design principles.
+
+---
+
+Thank you for reviewing my internship work.
+
 
 
 
