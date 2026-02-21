@@ -1,55 +1,123 @@
-# OIBSIP - Oasis Infobyte Internship Projects
+# 🌟 OIBSIP - Oasis Infobyte Internship Projects
 
-This repository contains all the tasks completed as part of the Oasis Infobyte Internship Program.
+This repository contains all the projects completed as part of the **Oasis Infobyte Internship Program (OIBSIP)**.
+
+The internship focuses on strengthening web development fundamentals through hands-on project implementation using HTML, CSS, and JavaScript.
+
+---
+
+# 📌 Internship Overview
+
+👨‍💻 Intern: Chagamreddy Sai Chandra Sekhar Reddy  
+📅 Duration: February 2026 – March 2026  
+🏢 Organization: Oasis Infobyte  
+💻 Domain: Web Development  
+
+---
+
+# 🚀 Completed Tasks
 
 ---
 
 ## 🔹 Task 1: Landing Page
 
-### 📌 Project Title:
-Task 1:Landing Page
+### 📖 Description
+A modern and responsive landing page built using HTML and CSS.
 
-### 📖 Description:
-This project is a modern and fully responsive landing page developed using HTML and CSS.  
-The landing page includes a navigation bar, hero section, services section, about section, and footer.
-
-The design focuses on:
-- Clean UI
-- Proper alignment
-- Responsive layout
+### ✨ Features
+- Navigation bar
+- Hero section with call-to-action
+- Services section
+- About section
+- Footer
+- Responsive design
 - Hover effects
-- Modern color gradients
-- Mobile-friendly design
 
----
-
-## 💻 Technologies Used:
+### 🛠 Technologies Used
 - HTML5
 - CSS3
 - Flexbox
-- Media Queries (Responsive Design)
+- Media Queries
+
 
 ---
 
-## 📱 Features:
-- Fully Responsive (Mobile, Tablet, Desktop)
-- Smooth hover animations
-- Modern gradient hero section
-- Organized folder structure
-- Clean and readable code
+## 🔹 Task 2: Personal Portfolio Website
+
+### 📖 Description
+An advanced animated portfolio website showcasing personal profile, skills, and projects.
+
+### ✨ Features
+- Professional photo layout
+- Animated hero section
+- Skills & project cards
+- Dark/Light mode toggle
+- Fully responsive design
+- Clean modern UI
+
+### 🛠 Technologies Used
+- HTML5
+- CSS3
+- JavaScript (Dark Mode Toggle)
+- Flexbox
+- Media Queries
+
 
 ---
 
-## 🚀 Live Preview:
-(If you enable GitHub Pages, paste your live link here)
+## 🔹 Task 3: Temperature Converter Website
 
-Example:
-https://yourusername.github.io/OIBSIP/SaiReddy-sm-landingpage/
+### 📖 Description
+A responsive temperature conversion web application that allows users to convert temperature values between Celsius and Fahrenheit.
+
+### 🎯 Functional Requirements
+The application includes:
+
+1️⃣ Input field for temperature value  
+2️⃣ Unit selection (Celsius or Fahrenheit)  
+3️⃣ Convert button  
+4️⃣ Display area for converted result  
+
+For enhanced functionality, Kelvin conversion can also be added.
 
 ---
-##Screenshot
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a1d66474-7137-4f88-9045-a151a580d697" />
 
-##Live link
-file:///C:/OIBSIP%20Internship/Landing%20Page/Index.html#
-ank you for reviewing this project.
+### 🔥 Features
+- User input validation (checks if input is a valid number)
+- Dropdown or radio button for selecting input unit
+- Instant conversion on button click
+- Displays converted value with correct unit
+- Optional Kelvin conversion support
+- Responsive design
+
+---
+
+### 🌡 Conversion Logic
+
+- Celsius → Fahrenheit  
+  `(°C × 9/5) + 32`
+
+- Fahrenheit → Celsius  
+  `(°F − 32) × 5/9`
+
+- Celsius → Kelvin  
+  `°C + 273.15`
+
+- Kelvin → Celsius  
+  `K − 273.15`
+
+---
+
+### 🛠 Technologies Used
+- HTML5
+- CSS3
+- JavaScript (DOM Manipulation & Validation)
+
+
+
+
+
+
+
+
+
