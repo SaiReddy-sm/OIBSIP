@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #111;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background: linear-gradient(to right, #00bcd4, #3f51b5);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #222;
+    color: white;
+}
+
+/* Services */
+.services {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    margin: 15px;
+    padding: 30px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* About */
+.about {
+    padding: 60px 8%;
+    background: #222;
+    color: white;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
