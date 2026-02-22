@@ -8,78 +8,113 @@
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">InnovateX</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <div class="logo">InnovateX</div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Build Modern Websites With Confidence</h1>
-            <p>We design and develop fast, responsive and professional websites for businesses.</p>
-            <a href="#services" class="btn">Get Started</a>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Build Modern Websites With Confidence</h1>
+        <p>We design and develop fast, responsive and professional websites.</p>
+        <button class="btn" onclick="scrollToServices()">Get Started</button>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+        <div class="card">
+            <h3>Web Design</h3>
+            <p>Creative and user-friendly UI/UX designs.</p>
         </div>
-    </section>
-
-    <!-- Services -->
-    <section class="services" id="services">
-        <h2>Our Services</h2>
-        <div class="service-container">
-            <div class="card">
-                <h3>Web Design</h3>
-                <p>Creative and user-friendly UI/UX designs.</p>
-            </div>
-            <div class="card">
-                <h3>Development</h3>
-                <p>Responsive and optimized websites.</p>
-            </div>
-            <div class="card">
-                <h3>SEO Optimization</h3>
-                <p>Improve search ranking and visibility.</p>
-            </div>
+        <div class="card">
+            <h3>Development</h3>
+            <p>Responsive and optimized websites.</p>
         </div>
-    </section>
-
-    <!-- About -->
-    <section class="about" id="about">
-        <div class="about-content">
-            <h2>Why Choose Us?</h2>
-            <p>We focus on quality, performance and modern design standards to deliver impactful digital solutions.</p>
+        <div class="card">
+            <h3>SEO Optimization</h3>
+            <p>Improve search ranking and visibility.</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: info@innovatex.com</p>
-        <p>Phone: +91 9876543210</p>
-    </section>
+<section class="about" id="about">
+    <h2>Why Choose Us?</h2>
+    <p>We focus on quality, performance and modern design standards.</p>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 InnovateX. All Rights Reserved.</p>
-    </footer>
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
 
-    <!-- Smooth Scroll Script -->
-    <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <p id="formMessage"></p>
+</section>
+
+<footer>
+    <p>© 2026 InnovateX. All Rights Reserved.</p>
+</footer>
+
+<script>
+
+// Smooth Scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
         });
     });
-    </script>
+});
+
+// Get Started Button Scroll
+function scrollToServices() {
+    document.getElementById("services").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+
+// Contact Form Validation
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let message = document.getElementById("message").value.trim();
+    let output = document.getElementById("formMessage");
+
+    if(name === "" || email === "" || message === "") {
+        output.style.color = "red";
+        output.innerText = "Please fill all fields.";
+        return;
+    }
+
+    if(!email.includes("@")) {
+        output.style.color = "red";
+        output.innerText = "Enter a valid email address.";
+        return;
+    }
+
+    output.style.color = "green";
+    output.innerText = "Message sent successfully! (Demo Mode)";
+    
+    document.getElementById("contactForm").reset();
+});
+
+</script>
 
 </body>
 </html>
