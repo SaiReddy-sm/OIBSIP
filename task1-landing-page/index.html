@@ -13,25 +13,25 @@
         <div class="logo">InnovateX</div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-content">
             <h1>Build Modern Websites With Confidence</h1>
             <p>We design and develop fast, responsive and professional websites for businesses.</p>
-            <a href="#" class="btn">Get Started</a>
+            <a href="#services" class="btn">Get Started</a>
         </div>
     </section>
 
     <!-- Services -->
-    <section class="services">
+    <section class="services" id="services">
         <h2>Our Services</h2>
         <div class="service-container">
             <div class="card">
@@ -50,17 +50,36 @@
     </section>
 
     <!-- About -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-content">
             <h2>Why Choose Us?</h2>
             <p>We focus on quality, performance and modern design standards to deliver impactful digital solutions.</p>
         </div>
     </section>
 
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@innovatex.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
     <!-- Footer -->
     <footer>
         <p>© 2026 InnovateX. All Rights Reserved.</p>
     </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
 
 </body>
 </html>
