@@ -26,7 +26,7 @@ function animateCounter(id, target) {
 
 animateCounter("exp", 1);
 animateCounter("projectsDone", 6);
-animateCounter("Languages", 3);
+animateCounter("Languages", 7);
 
 
 
