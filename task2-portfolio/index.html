@@ -1,343 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ch. Sai Reddy | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ch. Sai Reddy | Portfolio</title>
 
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-scroll-behavior:smooth;
-}
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-body{
-background:#0d0d0d;
-color:#fff;
-}
-
-/* HEADER */
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 60px;
-position:fixed;
-width:100%;
-background:rgba(0,0,0,0.8);
-backdrop-filter:blur(10px);
-z-index:1000;
-}
-
-.logo{
-font-weight:700;
-font-size:22px;
-color:gold;
-}
-
-nav ul{
-display:flex;
-list-style:none;
-gap:30px;
-}
-
-nav a{
-text-decoration:none;
-color:#fff;
-transition:0.3s;
-}
-
-nav a:hover{
-color:red;
-}
-
-/* HERO */
-.hero{
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:120px 80px;
-}
-
-.hero-text{
-max-width:600px;
-}
-
-.hero-text h1{
-font-size:48px;
-margin-bottom:20px;
-}
-
-.hero-text span{
-color:gold;
-}
-
-.hero-text p{
-margin-bottom:20px;
-color:#ccc;
-}
-
-.btn{
-display:inline-block;
-padding:12px 25px;
-background:linear-gradient(45deg,gold,red);
-color:#000;
-font-weight:600;
-border-radius:30px;
-text-decoration:none;
-transition:0.3s;
-}
-
-.btn:hover{
-transform:scale(1.05);
-}
-
-.hero-img img{
-width:350px;
-border-radius:20px;
-box-shadow:0 0 40px rgba(255,0,0,0.4);
-}
-
-/* SECTION */
-section{
-padding:80px 80px;
-}
-
-.section-title{
-font-size:32px;
-margin-bottom:40px;
-color:gold;
-}
-
-/* SERVICES */
-.services{
-display:flex;
-gap:30px;
-flex-wrap:wrap;
-}
-
-.card{
-flex:1;
-min-width:250px;
-padding:30px;
-background:#1a1a1a;
-border-radius:15px;
-transition:0.3s;
-border:1px solid #222;
-}
-
-.card:hover{
-transform:translateY(-10px);
-border:1px solid red;
-}
-
-.card h3{
-color:gold;
-margin-bottom:15px;
-}
-
-/* COUNTERS */
-.stats{
-display:flex;
-gap:60px;
-margin-top:30px;
-}
-
-.stat h2{
-color:red;
-font-size:40px;
-}
-
-/* PROJECTS */
-.projects{
-display:flex;
-gap:30px;
-flex-wrap:wrap;
-}
-
-.project{
-background:#1a1a1a;
-padding:20px;
-border-radius:15px;
-flex:1;
-min-width:250px;
-transition:0.3s;
-}
-
-.project:hover{
-transform:scale(1.05);
-}
-
-.project a{
-color:gold;
-text-decoration:none;
-}
-
-/* CONTACT */
-.contact a{
-color:gold;
-display:block;
-margin-bottom:10px;
-text-decoration:none;
-}
-
-/* FOOTER */
-footer{
-text-align:center;
-padding:20px;
-background:#000;
-color:#aaa;
-}
-
-/* RESPONSIVE */
-@media(max-width:900px){
-.hero{
-flex-direction:column;
-text-align:center;
-}
-.hero-img{
-margin-top:40px;
-}
-}
-</style>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<div class="logo">Sai Reddy</div>
-<nav>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</header>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Sai Reddy</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- HERO -->
-<section class="hero" id="home">
-<div class="hero-text">
-<h1>Hello, I'm <span>Ch. Sai Reddy</span></h1>
-<h3 id="typing"></h3>
-<p>I build responsive and interactive web experiences.</p>
-<a href="#contact" class="btn">Hire Me</a>
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Hello, I'm <span>Ch. Sai Reddy</span></h1>
+      <h3 id="typing"></h3>
+      <p>I build responsive and interactive web experiences.</p>
+      <a href="#contact" class="btn">Hire Me</a>
 
-<div class="stats">
-<div class="stat">
-<h2 id="exp">0</h2>
-<p>Years Experience</p>
-</div>
-<div class="stat">
-<h2 id="projectsDone">0</h2>
-<p>Projects Completed</p>
-</div>
-</div>
+      <div class="stats">
+        <div class="stat">
+          <h2 id="exp">0</h2>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat">
+          <h2 id="projectsDone">0</h2>
+          <p>Projects Completed</p>
+        </div>
+      </div>
+    </div>
 
-</div>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1603415526960-f8f2b29e6c18?auto=format&fit=crop&w=500&q=80"
+        alt="Professional Developer Image">
+    </div>
+  </section>
 
-<div class="hero-img">
-<img src="https://images.unsplash.com/photo-1603415526960-f8f2b29e6c18?auto=format&fit=crop&w=500&q=80" alt="Professional Image">
-</div>
-</section>
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am a passionate Frontend and Full Stack Developer with 1+ year of experience
+      building modern, responsive websites using HTML, CSS, JavaScript and backend technologies.
+      I focus on performance, clean UI design and writing maintainable code.
+    </p>
+  </section>
 
-<!-- ABOUT -->
-<section id="about">
-<h2 class="section-title">About Me</h2>
-<p>I am a passionate Frontend and Full Stack Developer with 1+ year experience in building modern, responsive websites using HTML, CSS, JavaScript and backend technologies. I focus on performance, UI design and clean code.</p>
-</section>
+  <!-- SERVICES -->
+  <section id="services">
+    <h2 class="section-title">My Services</h2>
 
-<!-- SERVICES -->
-<section id="services">
-<h2 class="section-title">My Services</h2>
-<div class="services">
-<div class="card">
-<h3>Frontend Development</h3>
-<p>Modern UI development with clean structure and responsive design.</p>
-</div>
-<div class="card">
-<h3>Responsive Web Design</h3>
-<p>Mobile-first design ensuring smooth performance across devices.</p>
-</div>
-<div class="card">
-<h3>JavaScript Applications</h3>
-<p>Interactive web applications with real-time functionality.</p>
-</div>
-</div>
-</section>
+    <div class="services">
+      <div class="card">
+        <h3>Frontend Development</h3>
+        <p>Modern UI development with clean structure and responsive design.</p>
+      </div>
 
-<!-- PROJECTS -->
-<section id="projects">
-<h2 class="section-title">Projects</h2>
-<div class="projects">
-<div class="project">
-<h3>Landing Page</h3>
-<a href="https://saireddy-sm.github.io/OIBSIP/" target="_blank">View Live</a>
-</div>
+      <div class="card">
+        <h3>Responsive Web Design</h3>
+        <p>Mobile-first design ensuring smooth performance across devices.</p>
+      </div>
 
-<div class="project">
-<h3>Portfolio Website</h3>
-<a href="https://saireddy-sm.github.io/OIBSIP/task2-portfolio/" target="_blank">View Live</a>
-</div>
+      <div class="card">
+        <h3>JavaScript Applications</h3>
+        <p>Interactive web applications with dynamic functionality.</p>
+      </div>
+    </div>
+  </section>
 
-<div class="project">
-<h3>Temperature Converter</h3>
-<a href="https://saireddy-sm.github.io/OIBSIP/task3-temperature-converter/" target="_blank">View Live</a>
-</div>
-</div>
-</section>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
 
-<!-- CONTACT -->
-<section id="contact">
-<h2 class="section-title">Contact Me</h2>
-<div class="contact">
-<a href="mailto:saireddy.dev@example.com">saireddy.dev@example.com</a>
-<a href="https://github.com/SaiReddy-sm/OIBSIP" target="_blank">GitHub</a>
-<a href="https://www.linkedin.com/in/sai-reddy-0b08b23a0/" target="_blank">LinkedIn</a>
-</div>
-</section>
+    <div class="projects">
+      <div class="project">
+        <h3>Landing Page</h3>
+        <a href="https://saireddy-sm.github.io/OIBSIP/" target="_blank">View Live</a>
+      </div>
 
-<footer>
-© 2026 Ch. Sai Reddy | All Rights Reserved
-</footer>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <a href="https://saireddy-sm.github.io/OIBSIP/task2-portfolio/" target="_blank">View Live</a>
+      </div>
 
-<script>
-// Typing Effect
-const text = "Frontend Developer | Full Stack Developer";
-let i = 0;
-function typing(){
-if(i < text.length){
-document.getElementById("typing").innerHTML += text.charAt(i);
-i++;
-setTimeout(typing,50);
-}
-}
-typing();
+      <div class="project">
+        <h3>Temperature Converter</h3>
+        <a href="https://saireddy-sm.github.io/OIBSIP/task3-temperature-converter/" target="_blank">View Live</a>
+      </div>
+    </div>
+  </section>
 
-// Counter Animation
-function animateCounter(id, target){
-let count = 0;
-let interval = setInterval(()=>{
-count++;
-document.getElementById(id).innerText = count + "+";
-if(count == target){
-clearInterval(interval);
-}
-},50);
-}
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
 
-animateCounter("exp",1);
-animateCounter("projectsDone",6);
-</script>
-<script src="script.js"></script>
+    <div class="contact">
+      <a href="mailto:saireddy.dev@example.com">saireddy.dev@example.com</a>
+      <a href="https://github.com/SaiReddy-sm/OIBSIP" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/sai-reddy-0b08b23a0/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Ch. Sai Reddy | All Rights Reserved
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+
 </body>
 </html>
