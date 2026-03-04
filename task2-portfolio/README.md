@@ -48,10 +48,6 @@ This portfolio adapts to:
 ---
 
 ## 🔗 Live Demo
-(Add your GitHub Pages link here after enabling it)
-
-Example:
-https://yourusername.github.io/OIBSIP/SaiReddy-sm-portfolio/
 
 ---
 
