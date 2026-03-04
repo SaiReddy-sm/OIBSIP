@@ -48,19 +48,6 @@ This portfolio adapts to:
 ---
 
 ## 🔗 Live Demo
-
+https://saireddy-sm.github.io/OIBSIP_Web_Development_Internship/task2-portfolio/
 ---
 
-## 👨‍💻 Author
-Chagamreddy Sai Chandra Sekhar Reddy
-
----
-
-## 📅 Internship Details
-Organization: Oasis Infobyte  
-Level 1 – Task 2  
-Project: Personal Portfolio Website  
-
----
-
-Thank you for reviewing this project.
