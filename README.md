@@ -15,57 +15,10 @@ The internship focuses on strengthening web development fundamentals through han
 
 ---
 
-# 🚀 Completed Tasks
-
----
-
-## 🔹 Task 1: Landing Page
-
-### 📖 Description
-A modern and responsive landing page built using HTML and CSS.
-
-### ✨ Features
-- Navigation bar
-- Hero section with call-to-action
-- Services section
-- About section
-- Footer
-- Responsive design
-- Hover effects
-
-### 🛠 Technologies Used
-- HTML5
-- CSS3
-- Flexbox
-- Media Queries
-
-
----
-
-## 🔹 Task 2: Personal Portfolio Website
-
-### 📖 Description
-An advanced animated portfolio website showcasing personal profile, skills, and projects.
-
-### ✨ Features
-- Professional photo layout
-- Animated hero section
-- Skills & project cards
-- Dark/Light mode toggle
-- Fully responsive design
-- Clean modern UI
-
-### 🛠 Technologies Used
-- HTML5
-- CSS3
-- JavaScript (Dark Mode Toggle)
-- Flexbox
-- Media Queries
-
-
----
-
 ## 🔹 Task 3: Temperature Converter Website
+
+## Live Demo
+https://saireddy-sm.github.io/OIBSIP_Web_Development_Internship/task3-temperature-converter/
 
 ### 📖 Description
 A responsive temperature conversion web application that allows users to convert temperature values between Celsius and Fahrenheit.
@@ -135,13 +88,6 @@ All projects are fully responsive and work across:
 - Git & GitHub Version Control
 
 ---
-
-# 📌 Conclusion
-
-This internship strengthened my practical knowledge of web development by building real-world projects from scratch. It improved my problem-solving skills and understanding of responsive design principles.
-
----
-
 Thank you for reviewing my internship work.
 
 
