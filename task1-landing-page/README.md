@@ -26,7 +26,6 @@ The design focuses on:
 ## 💻 Technologies Used:
 - HTML5
 - CSS3
-- Flexbox
 - Media Queries (Responsive Design)
 
 ---
@@ -43,10 +42,5 @@ The design focuses on:
 ## 🚀 Live Preview:
 https://saireddy-sm.github.io/OIBSIP_Web_Development_Internship/task1-landing-page/
 
----
-##Screenshot
-<img width="1366" height="768" alt="image" src="blob:https://web.whatsapp.com/6315d0a0-7564-440e-a75c-176c0a956668" />
 
-##Live link
-file:///C:/OIBSIP%20Internship/Landing%20Page/Index.html#
-ank you for reviewing this project.
+
