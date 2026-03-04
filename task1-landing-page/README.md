@@ -41,10 +41,7 @@ The design focuses on:
 ---
 
 ## 🚀 Live Preview:
-(If you enable GitHub Pages, paste your live link here)
-
-Example:
-https://yourusername.github.io/OIBSIP/SaiReddy-sm-landingpage/
+https://saireddy-sm.github.io/OIBSIP_Web_Development_Internship/task1-landing-page/
 
 ---
 ##Screenshot
