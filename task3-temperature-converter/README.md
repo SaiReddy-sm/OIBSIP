@@ -4,7 +4,11 @@
 Task 3:Temperature-converter-Website
 
 ---
+## 🔗 Live Demo
 
+https://saireddy-sm.github.io/OIBSIP_Web_Development_Internship/task3-temperature-converter/
+
+---
 ## 📖 Description
 
 This project is a responsive temperature converter web application developed using HTML, CSS, and JavaScript.
@@ -74,21 +78,6 @@ This website works properly on:
 - Mobile devices
 - Tablets
 - Desktop screens
-
----
-
-## 🔗 Live Demo
-
-(Add GitHub Pages link here after enabling it)
-
-Example:
-https://yourusername.github.io/OIBSIP/SaiReddy-sm-temperature-converter/
-
----
-
-## 👨‍💻 Author
-
-Chagamreddy Sai Chandra Sekhar Reddy  
 
 ---
 
